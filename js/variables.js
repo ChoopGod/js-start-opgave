@@ -10,6 +10,9 @@ const h = undefined;
 const i = function () { };
 const j = new Date();
 
+// Const var og let -- forskel
+
+console.log("variabel a er:" + typeof (a));
 
 
 
