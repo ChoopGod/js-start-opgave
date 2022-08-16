@@ -1,0 +1,24 @@
+const fieldset = document.getElementById('fieldset');
+const month = document.getElementById('month');
+const checkbox = document.getElementById('checkbox');
+const colorpicker = document.getElementById('colorpicker');
+const rangeslider = document.getElementById('rangeslider');
+const input = document.getElementById('input');
+const reset = document.getElementById('reset');
+const submit = document.getElementById('submit');
+const button = document.getElementById('button');
+const selector = document.getElementById('selector');
+const options = document.getElementsByClassName('options');
+
+console.log("const fieldset er:" + typeof (fieldset));
+console.log("const month er:" + typeof (month));
+console.log("const checkbox er:" + typeof (checkbox));
+console.log("const colorpicker er:" + typeof (colorpicker));
+console.log("const rangeslider er:" + typeof (rangeslider));
+console.log("const input er:" + typeof (input));
+console.log("const reset er:" + typeof (reset));
+console.log("const submit er:" + typeof (submit));
+console.log("const button er:" + typeof (button));
+console.log("const selector er:" + typeof (selector));
+console.log("const options er:" + typeof (options));
+console.log(document.getElementsByClassName('options').value);
